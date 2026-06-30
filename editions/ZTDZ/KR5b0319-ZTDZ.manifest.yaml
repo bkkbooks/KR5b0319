@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0319/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5b0319/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 洞玄靈寶昇玄步虛章序疏
+  date: '2015-08-29 00:16:17.188817'
+  source:
+    repository: kanripo
+    path: KR5b0319
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0319_000-ZTDZ.yaml, hash: 'sha256:26e532ee4d1e17adf3a60238c9e6dcf55eca8f21dd59a83c74382976165ab82a'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0319_000-ZTDZ.markers.yaml, hash: 'sha256:64f4186f52542be3495a7b8f7f97e6b4ba5d69f8cf4a57cac947e12848813c43'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0319_SJB_000-110168b
+    span:
+    - body
+    - 0
+    - 3074
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:7a62232c47bc552e2bb51ed7293f70b36737d090f25f6fb94d3b19fee2cc9344
